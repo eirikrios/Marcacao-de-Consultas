@@ -1,4 +1,4 @@
-package com.fiap.ecr.api_marcacao_consultas.model;
+package com.fiap.eca.api_marcacao_consultas.model;
 import jakarta.persistence.*;
 import lombok.Data;
 @Data
@@ -12,5 +12,5 @@ public class Usuario {
     private String email;
     private String senha;
     private String tipo; // Paciente, Médico ou Admin
-    private String especialidade; // Especialidade do médico (null para pacientes e admin
+    private String especialidade; // Especialidade do médico (null para pacientes e admin)
 }
